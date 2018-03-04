@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="displayApp">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <title>All Saints Literacy Center</title>
+      <link rel="icon" href="Images/all-saints-literacy-center-favicon.png" type="image/gif" sizes="16x16">
+  </head>
+  <body>
+    <ng-view></ng-view>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-route.min.js"></script>
+    <script src="module.js"></script>
+    <script src="config.js"></script>
+    <script src="components/home.js"></script>
+    <script src="components/learn.js"></script>
+    <script src="components/volunteer.js"></script>
+    <script src="components/donate.js"></script>
+    <script src="components/contactus.js"></script>
+    <script src="components/newsletter.js"></script>
+    <script src="components/tutorapplication.js"></script>
+    <a href="/#!/home">
+    <div class="logoDiv">
+      <img id="logo" alt="All Saints Learning Center" src="images/all-saints-literacy-center-logo-white.png">
+      <span>All Saints Literacy Center</span>
+    </div>
+    </a>
+    <div class="menuDiv">
+      <a target="_blank" href="https://twitter.com/allsaintslitdet">
+        <img class="socialIcon" src="images/Twitter_Social_Icon_Square_White.png">
+      </a>
+      <a target="_blank" href="https://www.facebook.com/allsaintsliteracy/">
+        <img class="socialIcon" src="images/FB-f-Logo__white_29.png">
+      </a>
+      <a href="/#!/home">
+        <i class="material-icons sideNavButton">menu</i>
+      </a>
+    </div>
+    <a href="/#!/newsletter">
+    <div class="newsletterDiv">
+      <img id="newsletterIcon" alt="Subscribe to our newsletter" src="images/newsletter-icon_white.png">
+    </div>
+    </a>
+    <div class="footer">
+    <span>©2018 All Saints Literacy Center | 3553 W. Vernor Hwy. Detroit, MI 48216 | Hours: Mon 9-8, Tue 9-5, Wed 9-8, Thu 9-5 Fri 1-5 | 313-297-1399 |
+          allsaintsliteracy(at)gmail(dot)com | </span><a target="_blank" href="https://www.google.com/maps/dir/42.1476975,-83.1759853/All+Saints+Literacy+Center,+W.,+3553+Vernor+Hwy,+Detroit,+MI+48216/@42.2365429,-83.2327645,12z/data=!3m1!4b1!4m17!1m6!3m5!1s0x883b32a28287661d:0x4f1e4f2f0cfbcb33!2sAll+Saints+Literacy+Center!8m2!3d42.323223!4d-83.087642!4m9!1m1!4e1!1m5!1m1!1s0x883b32a28287661d:0x4f1e4f2f0cfbcb33!2m2!1d-83.087642!2d42.323223!3e0">Map/Directions</a>
+    </div>
+  </body>
+</html>
